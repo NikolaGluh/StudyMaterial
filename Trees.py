@@ -78,7 +78,7 @@ def find(root: Node, id: int) -> Node | bool:
         return find(root.right, id)
         
 # Function for getting the minimum value of a tree
-def getMin(root: Node):
+def getMin(root: Node) -> float:
     # If the root does not exist, return +inf
     if root is None:
         return float('inf')
@@ -93,7 +93,7 @@ def getMin(root: Node):
     return min
 
 # Function for getting the maximum value of a tree
-def getMax(root: Node):
+def getMax(root: Node) -> float:
     # If the root does not exist, return -inf
     if root is None:
         return float('-inf')
