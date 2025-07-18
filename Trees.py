@@ -9,8 +9,8 @@
 # Every node has a key, which is a value that is used to identify the node
 
 # Binary Tree
-# A binary tree is a tree data structure in which each node has at most two children, referred to as the left child and the right child.
-# Binary Search Tree (BST) is a binary tree in which each node has a key greater than all the keys in its left subtree and less than all the keys in its right subtree.
+# A binary tree is a tree data structure in which each node has at most two children, referred to as the left child and the right child
+# Binary Search Tree (BST) is a binary tree in which each node has a key greater than all the keys in its left subtree and less than all the keys in its right subtree
 
 # Example of a binary tree:
 #          1
@@ -21,8 +21,8 @@
 #     / \   \ 
 #    7   8   9 
 
-# Traversal of a tree is the process of visiting each node in the tree exactly once in some order.
-# There are three types of traversal: preorder, inorder, and postorder.
+# Traversal of a tree is the process of visiting each node in the tree exactly once in some order
+# There are three types of traversal: preorder, inorder, and postorder
 # Preorder traversal visits the root node first, then the left subtree, and finally the right subtree. [1,2,4,7,8,5,9,3,6]
 # Inorder traversal visits the left subtree first from it's end, then the root node, and finally the right subtree. [7,4,8,2,5,9,1,3,6]
 # Postorder traversal visits the left subtree first from it's end, then the right subtree, and finally the root node, for each current node. [7,8,4,9,5,2,6,3,1]
